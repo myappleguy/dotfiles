@@ -4,7 +4,7 @@ require 'rake'
 task :default => [:install]
 
 desc "Install and update dotfiles (default)"
-task :install => [:git_submodules_init, :symlinks] do
+task :install => [:symlinks] do
   puts 'Install complete!'
 end
 
