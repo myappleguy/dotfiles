@@ -146,7 +146,7 @@ nmap <leader><leader>r :w<CR>:! ruby -Itest %<CR>
 nmap <leader>sc :setlocal spell! spelllang=en_us<CR>
 
 " edit vim configs
-nmap <leader>vm :vsp<CR>:e ~/code/dotfiles/vim.symlink/vimrc.symlink<CR>
-nmap <leader>ab :vsp<CR>:e ~/code/dotfiles/vim.symlink/abbreviations.vim<CR>
-nmap <leader>km :vsp<CR>:e ~/code/dotfiles/vim.symlink/keymaps.vim<CR>
-nmap <leader>plg :vsp<CR>:e ~/code/dotfiles/vim.symlink/plug.vim<CR>
+nmap <leader>vm :vsp<CR>:e ~/dotfiles/vim.symlink/vimrc.symlink<CR>
+nmap <leader>ab :vsp<CR>:e ~/dotfiles/vim.symlink/abbreviations.vim<CR>
+nmap <leader>km :vsp<CR>:e ~/dotfiles/vim.symlink/keymaps.vim<CR>
+nmap <leader>plg :vsp<CR>:e ~/dotfiles/vim.symlink/plug.vim<CR>
